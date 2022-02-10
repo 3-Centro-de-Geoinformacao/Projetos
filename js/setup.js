@@ -89,7 +89,7 @@ const INIT_ZOOM = {
 
 var PROJECTS = {
     'mapeamento-do-estado-de-pernambuco 1:25000': {
-        title: 'Mapeamento do Estado de Pernambuco',
+        title: 'Mapeamento do Estado de Pernambuco 1:25000',
         legend: [
             1,
             12,
@@ -99,8 +99,8 @@ var PROJECTS = {
             6,
             3
         ],
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        para gerar 493 cartas ortoimagens na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico.
+        description: `O objetivo do presente projeto consiste em realizar o mapeamento do Estado de Pernambuco,
+        para gerar 493 cartas ortoimagens na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho (PIT) 2022 da Diretoria de Serviço Geográfico.
         Vetorização: 53,55% 
         Adequação: 15,62% 
         Validação: 2,42% 
@@ -154,8 +154,8 @@ var PROJECTS = {
     },
     'mapeamento-do-estado-de-pernambuco-1:50.000': {
         title: 'Mapeamento do Estado de Pernambuco 1:50.000',
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        para gerar  69 cartas ortoimagens na escala 1:50.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico.`,
+        description: `O objetivo do presente projeto consiste em realizar o mapeamento do Estado de Pernambuco,
+        para gerar  69 cartas ortoimagens na escala 1:50.000 visando atender a meta do Plano Interno de Trabalho (PIT) 2022 da Diretoria de Serviço Geográfico.`,
         legend: [
             1,
             12,
@@ -216,7 +216,7 @@ var PROJECTS = {
     'mapeamento-topografico-cimnc': {
         title: 'Mapeamento Topográfico do Campo de Instrução Marechal Newton Cavalcanti - CIMNC',
         description: `O objetivo do presente projeto consiste em realizar o mapeamento topográfico do Campo de Instrução Marechal Newton Cavalcanti - CIMNC,
-        para gerar 4 cartas topográficas na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico.`,
+        para gerar 4 cartas topográficas na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho (PIT) 2022 da Diretoria de Serviço Geográfico.`,
         legend: [
             1,
             12,
@@ -277,7 +277,7 @@ var PROJECTS = {
     'mapeamento-das-capitais': {
         title: 'Mapeamento das Capitais',
         description: `O objetivo do presente projeto consiste em realizar o mapeamento das capitais, para gerar 41 cartas ortoimagens, 8 na escala 1:25.000 
-        e 33 na escala de 1:50.000, visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico. 
+        e 33 na escala de 1:50.000, visando atender a meta do Plano Interno de Trabalho (PIT) 2022 da Diretoria de Serviço Geográfico. 
         Finalizadas: 19,51%`,
         legend: [
             1,
