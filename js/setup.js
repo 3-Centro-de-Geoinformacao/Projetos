@@ -89,7 +89,7 @@ const INIT_ZOOM = {
 
 var PROJECTS = {
     'mapeamento-do-estado-de-pernambuco 1:25000': {
-        title: 'Mapeamento do Estado de Pernambuco 1:25000',
+        title: 'Mapeamento do Estado de Pernambuco 1:25.000',
         legend: [
             1,
             12,
