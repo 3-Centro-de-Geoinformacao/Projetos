@@ -637,7 +637,7 @@
             "properties": {
                 "id": 40019,
                 "identificador": "1369-3",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
