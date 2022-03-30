@@ -77,7 +77,7 @@
             "properties": {
                 "id": 4003,
                 "identificador": "1445-4",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
@@ -217,7 +217,7 @@
             "properties": {
                 "id": 4007,
                 "identificador": "1523-2",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
@@ -602,7 +602,7 @@
             "properties": {
                 "id": 4018,
                 "identificador": "1521-2",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
