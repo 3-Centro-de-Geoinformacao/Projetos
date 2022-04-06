@@ -23,7 +23,7 @@ const SUBTITLE_STATES = [
     {
         id: 5,
         name: 'Validação',
-        color: 'rgb(255,255,191)'
+        color: 'rgb(49,83,222)'
     },
     {
         id: 6,
@@ -93,6 +93,7 @@ var PROJECTS = {
         legend: [
             1,
             7,
+            5,
             3,
         ],
         description: `O objetivo do presente projeto consiste em realizar a vetorização de 24 cartas para 1:50.000, 
