@@ -7,7 +7,7 @@
             "properties": {
                 "id": 4001,
                 "identificador": "1448-1",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
@@ -42,7 +42,7 @@
             "properties": {
                 "id": 4002,
                 "identificador": "1446-2",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -112,7 +112,7 @@
             "properties": {
                 "id": 4004,
                 "identificador": "1447-2",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -182,7 +182,7 @@
             "properties": {
                 "id": 4006,
                 "identificador": "1522-2",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
@@ -252,7 +252,7 @@
             "properties": {
                 "id": 4008,
                 "identificador": "1369-4",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -287,7 +287,7 @@
             "properties": {
                 "id": 4009,
                 "identificador": "1367-4",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -322,7 +322,7 @@
             "properties": {
                 "id": 4010,
                 "identificador": "1523-1",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
@@ -357,7 +357,7 @@
             "properties": {
                 "id": 4011,
                 "identificador": "1446-3",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -392,7 +392,7 @@
             "properties": {
                 "id": 4012,
                 "identificador": "1447-1",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -462,7 +462,7 @@
             "properties": {
                 "id": 4014,
                 "identificador": "1368-4",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -532,7 +532,7 @@
             "properties": {
                 "id": 4016,
                 "identificador": "1368-3",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -637,7 +637,7 @@
             "properties": {
                 "id": 4019,
                 "identificador": "1369-3",
-                "situacao": "Vetorização"
+                "situacao": "Validação"
             },
             "geometry": {
                 "type": "Polygon",
@@ -812,7 +812,7 @@
             "properties": {
                 "id": 4024,
                 "identificador": "1370-4",
-                "situacao": "Previsto"
+                "situacao": "Vetorização"
             },
             "geometry": {
                 "type": "Polygon",
