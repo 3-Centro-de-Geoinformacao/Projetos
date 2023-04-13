@@ -26,7 +26,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 6,
-        name: 'Edição',
+        name: 'Editadas',
         color: 'rgb(217,239,139)'
     },
     {
