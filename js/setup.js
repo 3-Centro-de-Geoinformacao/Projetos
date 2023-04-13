@@ -21,7 +21,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 5,
-        name: 'Revisão',
+        name: 'Revisadas',
         color: 'rgb(49,83,222)'
     },
     {
@@ -36,7 +36,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 8,
-        name: 'Adequação',
+        name: 'Adequadas',
         color: 'rgb(175,141,195)'
     },
     {
