@@ -12,7 +12,7 @@ const SUBTITLE_STATES = [
     {
         id: 3,
         name: 'Finalizada',
-        color: 'rgb(51,204,51)'
+        color: 'rgb(217,239,139)'
     },
     {
         id: 4,
@@ -27,7 +27,7 @@ const SUBTITLE_STATES = [
     {
         id: 6,
         name: 'Editadas',
-        color: 'rgb(217,239,139)'
+        color: 'rgb(51,204,51)'
     },
     {
         id: 7,
