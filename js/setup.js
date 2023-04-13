@@ -87,6 +87,65 @@ const INIT_ZOOM = {
 }
 
 var PROJECTS = {
+    'mapeamento-pe': {
+        title: 'Mapeamento do Estado de Pernambuco em 1:25.000',
+        legend: [
+            12,
+            15,
+            8,
+            5,
+            6
+        ],
+        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
+        gerando 467 novas cartas na escala 1:25.000, das quais 467 (100%) já foram Adequadas, 190 (40,7%) Revisadas 
+        e 72 (15,4%) Editadas.`,
+        lotes: [
+            {
+                name: 'mapeamento-pe',
+                subtitle: 'Mapeamento 1:25.000',
+                zoom: [
+                    [-42, -10], // southwestern corner of the bounds
+                    [-33, -7] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'mapeamento-pe-fill',
+                        'source': 'mapeamento-pe',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-pe-border',
+                        'source': 'mapeamento-pe,3',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-pe-text',
+                        'source': 'mapeamento-pe',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            
+        ]
+    },
     'combater-2023': {
         title: 'Projeto Combater 2023',
         legend: [
@@ -129,65 +188,6 @@ var PROJECTS = {
                     {
                         'id': 'combater-2023-text',
                         'source': 'combater-2023',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            
-        ]
-    },
-    'mapeamento-pe': {
-        title: 'Mapeamento do Estado de Pernambuco',
-        legend: [
-            12,
-            15,
-            8,
-            5,
-            6
-        ],
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        gerando 467 novas cartas na escala 1:25.000, das quais 467 (100%) já foram Adequadas, 190 (40,7%) Revisadas 
-        e 72 (15,4%) Editadas.`,
-        lotes: [
-            {
-                name: 'mapeamento-pe',
-                subtitle: 'Mapeamento 1:25.000',
-                zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'mapeamento-pe-fill',
-                        'source': 'mapeamento-pe',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-pe-border',
-                        'source': 'mapeamento-pe,3',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-pe-text',
-                        'source': 'mapeamento-pe',
                         "type": "symbol",
                         "maxzoom": 10,
                         "minzoom": 7.4,
