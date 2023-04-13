@@ -21,7 +21,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 5,
-        name: 'Validação',
+        name: 'Revisão',
         color: 'rgb(49,83,222)'
     },
     {
@@ -56,7 +56,7 @@ const SUBTITLE_STATES = [
     },
     {
         id: 12,
-        name: 'Processamento Digital de Imagens',
+        name: 'Sem insumos',
         color: 'rgb(215,48,39)'
     },
     {
@@ -157,11 +157,8 @@ var PROJECTS = {
             3
         ],
         description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        para gerar 493 cartas ortoimagens na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico.
-        Vetorização: 57,20% 
-        Adequação: 18,45% 
-        Validação: 2,42% 
-        Finalizadas: 1,42% `,
+        gerando 467 novas cartas na escala 1:25.000, das quais 467 (100%) já foram Adequadas, 190 (40,7%) Revisadas 
+        e 72 (15,4%) Editadas.`,
         lotes: [
             {
                 name: 'mapeamento-pe',
