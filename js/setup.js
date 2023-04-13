@@ -148,8 +148,8 @@ var PROJECTS = {
     'mapeamento-pe': {
         title: 'Mapeamento do Estado de Pernambuco',
         legend: [
-            15,
             12,
+            15,
             8,
             5,
             6
