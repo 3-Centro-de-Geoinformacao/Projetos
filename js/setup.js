@@ -145,6 +145,81 @@ var PROJECTS = {
             
         ]
     },
+    'mapeamento-pe': {
+        title: 'Mapeamento do Estado de Pernambuco',
+        legend: [
+            15,
+            12,
+            7,
+            8,
+            5,
+            6,
+            3
+        ],
+        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
+        para gerar 493 cartas ortoimagens na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico.
+        Vetorização: 57,20% 
+        Adequação: 18,45% 
+        Validação: 2,42% 
+        Finalizadas: 1,42% `,
+        lotes: [
+            {
+                name: 'mapeamento-pe',
+                subtitle: 'Mapeamento 1:25.000',
+                zoom: [
+                    [-42, -10], // southwestern corner of the bounds
+                    [-33, -7] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'mapeamento-pe-fill',
+                        'source': 'mapeamento-pe',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-pe-border',
+                        'source': 'mapeamento-pe,3',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-pe-text',
+                        'source': 'mapeamento-pe',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            
+        ]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     'mapeamento-FORPRON': {
         title: 'Vetorização de cartas para a certificação da FORPRON',
         legend: [
