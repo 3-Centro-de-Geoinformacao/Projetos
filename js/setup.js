@@ -103,8 +103,8 @@ var PROJECTS = {
                 name: 'combater-2023',
                 subtitle: 'Combater 2023',
                 zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
+                    [-38, -10], // southwestern corner of the bounds
+                    [-33, -6] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
