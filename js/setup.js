@@ -150,11 +150,9 @@ var PROJECTS = {
         legend: [
             15,
             12,
-            7,
             8,
             5,
-            6,
-            3
+            6
         ],
         description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
         gerando 467 novas cartas na escala 1:25.000, das quais 467 (100%) já foram Adequadas, 190 (40,7%) Revisadas 
@@ -206,17 +204,6 @@ var PROJECTS = {
             
         ]
     },
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     'mapeamento-FORPRON': {
         title: 'Vetorização de cartas para a certificação da FORPRON',
         legend: [
