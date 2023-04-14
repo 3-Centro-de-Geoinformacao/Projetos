@@ -277,7 +277,7 @@ var PROJECTS = {
                 subtitle: 'PDDMT',
                 zoom: [
                     [-43, -5.7], // southwestern corner of the bounds
-                    [-38, -3.7] // northeastern corner of the bounds
+                    [-37, -3.6] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
@@ -351,7 +351,7 @@ var PROJECTS = {
                         'type': 'line',
                         'layout': {},
                         'paint': {
-                            'line-color': '#050505',
+                            'line-color': '#FF0000',
                             'line-width': 0.5
                         }
                     },
