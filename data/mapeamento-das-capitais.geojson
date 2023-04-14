@@ -2,11 +2,6 @@
 "type": "FeatureCollection",
 "name": "mapeamento das capitais",
 "features": [
-{ "type": "Feature", "properties": { "id": 30042, "identificador": "886-2-NO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.75, -5.125 ], [ -42.75, -5.0 ], [ -42.625, -5.0 ], [ -42.625, -5.125 ], [ -42.75, -5.125 ] ] ] } },
-{ "type": "Feature", "properties": { "id": 30043, "identificador": "886-1-NE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.125 ], [ -42.875, -5.0 ], [ -42.75, -5.0 ], [ -42.75, -5.125 ], [ -42.875, -5.125 ] ] ] } },
-{ "type": "Feature", "properties": { "id": 30044, "identificador": "813-3-SE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.0 ], [ -42.875, -4.875 ], [ -42.75, -4.875 ], [ -42.75, -5.0 ], [ -42.875, -5.0 ] ] ] } },
-{ "type": "Feature", "properties": { "id": 30045, "identificador": "886-2-SO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.75, -5.25 ], [ -42.75, -5.125 ], [ -42.625, -5.125 ], [ -42.625, -5.25 ], [ -42.75, -5.25 ] ] ] } },
-{ "type": "Feature", "properties": { "id": 30046, "identificador": "886-1-SE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.25 ], [ -42.875, -5.125 ], [ -42.75, -5.125 ], [ -42.75, -5.25 ], [ -42.875, -5.25 ] ] ] } },
 { "type": "Feature", "properties": { "id": 3001, "identificador": "1794-2", "situacao": "Previsto" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -37.25, -11.25 ], [ -37.25, -11.0 ], [ -37.0, -11.0 ], [ -37.0, -11.25 ], [ -37.25, -11.25 ] ] ] } },
 { "type": "Feature", "properties": { "id": 3003, "identificador": "978-4", "situacao": "Previsto" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -35.25, -6.0 ], [ -35.25, -5.75 ], [ -35.0, -5.75 ], [ -35.0, -6.0 ], [ -35.25, -6.0 ] ] ] } },
 { "type": "Feature", "properties": { "id": 3006, "identificador": "978-3", "situacao": "Previsto" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -35.5, -6.0 ], [ -35.5, -5.75 ], [ -35.25, -5.75 ], [ -35.25, -6.0 ], [ -35.5, -6.0 ] ] ] } },
@@ -40,5 +35,10 @@
 { "type": "Feature", "properties": { "id": 30039, "identificador": "1293-3-SE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -34.875, -8.0 ], [ -34.875, -7.875 ], [ -34.75, -7.875 ], [ -34.75, -8.0 ], [ -34.875, -8.0 ] ] ] } },
 { "type": "Feature", "properties": { "id": 30040, "identificador": "1372-1-SO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -35.0, -8.25 ], [ -35.0, -8.125 ], [ -34.875, -8.125 ], [ -34.875, -8.25 ], [ -35.0, -8.25 ] ] ] } },
 { "type": "Feature", "properties": { "id": 30041, "identificador": "1372-1-NO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -35.0, -8.125 ], [ -35.0, -8.0 ], [ -34.875, -8.0 ], [ -34.875, -8.125 ], [ -35.0, -8.125 ] ] ] } }
+{ "type": "Feature", "properties": { "id": 30042, "identificador": "886-2-NO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.75, -5.125 ], [ -42.75, -5.0 ], [ -42.625, -5.0 ], [ -42.625, -5.125 ], [ -42.75, -5.125 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 30043, "identificador": "886-1-NE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.125 ], [ -42.875, -5.0 ], [ -42.75, -5.0 ], [ -42.75, -5.125 ], [ -42.875, -5.125 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 30044, "identificador": "813-3-SE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.0 ], [ -42.875, -4.875 ], [ -42.75, -4.875 ], [ -42.75, -5.0 ], [ -42.875, -5.0 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 30045, "identificador": "886-2-SO", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.75, -5.25 ], [ -42.75, -5.125 ], [ -42.625, -5.125 ], [ -42.625, -5.25 ], [ -42.75, -5.25 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 30046, "identificador": "886-1-SE", "situacao": "Editadas" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -42.875, -5.25 ], [ -42.875, -5.125 ], [ -42.75, -5.125 ], [ -42.75, -5.25 ], [ -42.875, -5.25 ] ] ] } },
 ]
 }
