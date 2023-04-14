@@ -88,7 +88,7 @@ const INIT_ZOOM = {
 
 var PROJECTS = {
     'mapeamento-pe': {
-        title: 'Mapeamento do Estado de Pernambuco em 1:25.000',
+        title: 'Mapeamento do Estado de Pernambuco 1:25.000',
         legend: [
             12,
             15,
@@ -151,13 +151,7 @@ var PROJECTS = {
         description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
         para gerar  69 cartas ortoimagens na escala 1:50.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico.`,
         legend: [
-            1,
-            12,
-            7,
-            8,
-            5,
-            6,
-            3
+            1
         ],
        
         lotes: [
@@ -210,10 +204,7 @@ var PROJECTS = {
     'combater-2023': {
         title: 'Vetorização de cartas para a certificação da FORPRON',
         legend: [
-            1,
-            7,
-            5,
-            3,
+            7
         ],
         description: `O objetivo do presente projeto consiste em realizar a vetorização de 24 cartas para 1:50.000, 
         no  intuito de apoiar a simulação construtiva da 10ª Bda Inf Mtz no contexto da certificação daquela GU como FORPRON
