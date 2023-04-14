@@ -78,7 +78,12 @@ const SUBTITLE_STATES = [
         id: 16,
         name: 'Levantamento topográfico',
         color: 'rgb(37,52,148)'
-    }
+    },
+    {
+        id: 17,
+        name: 'Em Execução',
+        color: 'rgb(49,83,222)'
+    },
 ]
 
 const INIT_ZOOM = {
@@ -306,6 +311,62 @@ var PROJECTS = {
                         },
                         'paint': {
     
+                        }
+                    }
+                ]
+            },
+            
+        ]
+    },
+    'levantamento-patrimonial': {
+        title: 'Levantamento de Áreas Patrimoniais',
+        legend: [
+            1,
+            17,
+            3
+        ],
+        description: `O objetivo do presente levantamento é prestar apoio ao HMAR (Remembramento 31 imóveis), 
+        CIMNC (georreferenciamento de imóveis) e 59ª BI Mtz (desmembramento de 3 imóveis AL07-0001, 0002 e 0003)`,
+        lotes: [
+            {
+                name: 'levantamento-patrimonial',
+                subtitle: 'Levatamento Patrimonial',
+                zoom: [
+                    [-42, -10], // southwestern corner of the bounds
+                    [-33, -7] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'levantamento-patrimonial-fill',
+                        'source': 'levantamento-patrimonial',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'levantamento-patrimonial-border',
+                        'source': 'levantamento-patrimonial,3',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'levantamento-patrimonial-text',
+                        'source': 'levantamento-patrimonial',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
                         }
                     }
                 ]
