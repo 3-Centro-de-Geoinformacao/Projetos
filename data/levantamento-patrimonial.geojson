@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "levantamento-patrimonial",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 2, "id": 2, "situação": "Em Execução", "identificador": "CIMNC" }, "geometry": { "type": "Point", "coordinates": [ -35.105253156526899, -7.830889940637241 ] } },
+{ "type": "Feature", "properties": { "fid": 1, "id": 1, "situação": "Finalizado", "identificador": "HMAR" }, "geometry": { "type": "Point", "coordinates": [ -34.884383842888802, -8.058087206262304 ] } },
+{ "type": "Feature", "properties": { "fid": null, "id": 3, "situação": "Previsto", "identificador": "59 BI Mtz" }, "geometry": { "type": "Point", "coordinates": [ -35.734206384373685, -9.632988372562828 ] } }
+]
+}
