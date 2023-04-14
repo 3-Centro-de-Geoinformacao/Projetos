@@ -212,7 +212,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'combater-2023',
-                subtitle: 'vetorização da FORPRON 1:50.000',
+                subtitle: 'Vetorização da FORPRON 1:50.000',
                 zoom: [
                     [-38, -10], // southwestern corner of the bounds
                     [-33, -6] // northeastern corner of the bounds
