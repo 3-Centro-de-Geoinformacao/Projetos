@@ -206,8 +206,8 @@ var PROJECTS = {
         legend: [
             7
         ],
-        description: `O objetivo do presente projeto consiste em realizar a vetorização de 24 cartas para 1:50.000, 
-        no  intuito de apoiar a simulação construtiva da 10ª Bda Inf Mtz no contexto da certificação daquela GU como FORPRON
+        description: `O objetivo do presente projeto consiste em realizar a vetorização de 24 cartas na escala 1:50.000, 
+        no intuito de apoiar a simulação construtiva da 10ª Bda Inf Mtz no contexto da certificação daquela GU como FORPRON
         `,
         lotes: [
             {
