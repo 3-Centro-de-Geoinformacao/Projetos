@@ -261,8 +261,8 @@ var PROJECTS = {
             
         ]
     },
-    'mapeamento-das-capitais': {
-        title: 'Mapeamento das Capitais',
+    'pddmt': {
+        title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre (PDDMT)',
         description: `O objetivo do presente projeto consiste em realizar o mapeamento das capitais, para gerar 41 cartas ortoimagens, 8 na escala 1:25.000 
         e 33 na escala de 1:50.000, visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico. /n
         Finalizadas: 19,51%`,
@@ -273,16 +273,16 @@ var PROJECTS = {
        
         lotes: [
             {
-                name: 'mapeamento-das-capitais',
-                subtitle: 'Mapeamento das capitais',
+                name: 'pddmt',
+                subtitle: 'PDDMT',
                 zoom: [
-                    [-46, -13.41], // southwestern corner of the bounds
-                    [-34.2, -2.1] // northeastern corner of the bounds
+                    [-43, -5.7], // southwestern corner of the bounds
+                    [-38, -3.7] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
-                        'id': 'mapeamento-das-capitais-fill',
-                        'source': 'mapeamento-das-capitais',
+                        'id': 'pddmt-fill',
+                        'source': 'pddmt',
                         'type': 'fill',
                         'layout': {},
                         'paint': {
@@ -290,8 +290,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-das-capitais',
-                        'source': 'mapeamento-das-capitais',
+                        'id': 'pddmt-border',
+                        'source': 'pddmt',
                         'type': 'line',
                         'layout': {},
                         'paint': {
@@ -300,8 +300,8 @@ var PROJECTS = {
                         }
                     },
                     {
-                        'id': 'mapeamento-das-capitais',
-                        'source': 'mapeamento-das-capitais',
+                        'id': 'pddmt-text',
+                        'source': 'pddmt',
                         "type": "symbol",
                         "maxzoom": 11.0,
                         "minzoom": 9,
@@ -332,8 +332,8 @@ var PROJECTS = {
                 name: 'levantamento-patrimonial',
                 subtitle: 'Levatamento Patrimonial',
                 zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
+                    [-35.8, -9.75], // southwestern corner of the bounds
+                    [-34.7, -7.7] // northeastern corner of the bounds
                 ],
                 styles: [
                     {
