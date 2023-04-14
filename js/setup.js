@@ -146,8 +146,69 @@ var PROJECTS = {
             
         ]
     },
+    'mapeamento-do-estado-de-pernambuco-1:50.000': {
+        title: 'Mapeamento do Estado de Pernambuco 1:50.000',
+        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
+        para gerar  69 cartas ortoimagens na escala 1:50.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico.`,
+        legend: [
+            1,
+            12,
+            7,
+            8,
+            5,
+            6,
+            3
+        ],
+       
+        lotes: [
+            {
+                name: 'mapeamento-do-estado-de-pernambuco-50000',
+                subtitle: 'Mapeamento 1:50.000',
+                zoom: [
+                    [-42, -10], // southwestern corner of the bounds
+                    [-33, -7] // northeastern corner of the bounds
+                ],
+                styles: [
+                    {
+                        'id': 'mapeamento-do-estado-de-pernambuco-50000-fill',
+                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
+                        'type': 'fill',
+                        'layout': {},
+                        'paint': {
+                            'fill-opacity': 0.9
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-do-estado-de-pernambuco-50000-border',
+                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
+                        'type': 'line',
+                        'layout': {},
+                        'paint': {
+                            'line-color': '#050505',
+                            'line-width': 0.5
+                        }
+                    },
+                    {
+                        'id': 'mapeamento-do-estado-de-pernambuco-50000-text',
+                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
+                        "type": "symbol",
+                        "maxzoom": 10,
+                        "minzoom": 7.4,
+                        'layout': {
+                            'text-field': ['to-string', ['get', 'identificador']]
+
+                        },
+                        'paint': {
+
+                        }
+                    }
+                ]
+            },
+            
+        ]
+    },
     'combater-2023': {
-        title: 'Projeto Combater 2023',
+        title: 'Vetorização de cartas para a certificação da FORPRON',
         legend: [
             1,
             7,
@@ -160,7 +221,7 @@ var PROJECTS = {
         lotes: [
             {
                 name: 'combater-2023',
-                subtitle: 'Combater 2023',
+                subtitle: 'vetorização da FORPRON 1:50.000',
                 zoom: [
                     [-38, -10], // southwestern corner of the bounds
                     [-33, -6] // northeastern corner of the bounds
@@ -204,64 +265,11 @@ var PROJECTS = {
             
         ]
     },
-    'mapeamento-FORPRON': {
-        title: 'Vetorização de cartas para a certificação da FORPRON',
-        legend: [
-            1,
-            7,
-            5,
-            3,
-        ],
-        description: `O objetivo do presente projeto consiste em realizar a vetorização de 24 cartas para 1:50.000, 
-        no  intuito de apoiar a simulação construtiva da 10ª Bda Inf Mtz no contexto da certificação daquela GU como FORPRON
-        `,
-        lotes: [
-            {
-                name: 'mapeamento-FORPRON',
-                subtitle: 'vetorização da FORPRON 1:50.000',
-                zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'mapeamento-FORPRON-fill',
-                        'source': 'mapeamento-FORPRON',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-FORPRON-border',
-                        'source': 'mapeamento-FORPRON',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-FORPRON-text',
-                        'source': 'mapeamento-FORPRON',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            
-        ]
-    },
+    
+    
+    
+    
+    
     'mapeamento-topografico-cimnc': {
         title: 'Mapeamento Topográfico do Campo de Instrução Marechal Newton Cavalcanti - CIMNC',
         description: `O objetivo do presente projeto consiste em realizar o mapeamento topográfico do Campo de Instrução Marechal Newton Cavalcanti - CIMNC,
@@ -321,131 +329,8 @@ var PROJECTS = {
             
         ]
     },
-    'mapeamento-do-estado-de-pernambuco 1:25000': {
-        title: 'Mapeamento do Estado de Pernambuco',
-        legend: [
-            15,
-            12,
-            7,
-            8,
-            5,
-            6,
-            3
-        ],
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        para gerar 493 cartas ortoimagens na escala 1:25.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico.
-        Vetorização: 57,20% 
-        Adequação: 18,45% 
-        Validação: 2,42% 
-        Finalizadas: 1,42% `,
-        lotes: [
-            {
-                name: 'mapeamento-do-estado-de-pernambuco',
-                subtitle: 'Mapeamento 1:25.000',
-                zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-fill',
-                        'source': 'mapeamento-do-estado-de-pernambuco',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-border',
-                        'source': 'mapeamento-do-estado-de-pernambuco',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-text',
-                        'source': 'mapeamento-do-estado-de-pernambuco',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            
-        ]
-    },
-    'mapeamento-do-estado-de-pernambuco-1:50.000': {
-        title: 'Mapeamento do Estado de Pernambuco 1:50.000',
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento do estado de Pernambuco,
-        para gerar  69 cartas ortoimagens na escala 1:50.000 visando atender a meta do Plano Interno de Trabalho(PIT) 2022 da Diretoria de Serviço Geográfico.`,
-        legend: [
-            1,
-            12,
-            7,
-            8,
-            5,
-            6,
-            3
-        ],
-       
-        lotes: [
-            {
-                name: 'mapeamento-do-estado-de-pernambuco-50000',
-                subtitle: 'Mapeamento 1:50.000',
-                zoom: [
-                    [-42, -10], // southwestern corner of the bounds
-                    [-33, -7] // northeastern corner of the bounds
-                ],
-                styles: [
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-50000-fill',
-                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
-                        'type': 'fill',
-                        'layout': {},
-                        'paint': {
-                            'fill-opacity': 0.9
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-50000-border',
-                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
-                        'type': 'line',
-                        'layout': {},
-                        'paint': {
-                            'line-color': '#050505',
-                            'line-width': 0.5
-                        }
-                    },
-                    {
-                        'id': 'mapeamento-do-estado-de-pernambuco-50000-text',
-                        'source': 'mapeamento-do-estado-de-pernambuco-50000',
-                        "type": "symbol",
-                        "maxzoom": 10,
-                        "minzoom": 7.4,
-                        'layout': {
-                            'text-field': ['to-string', ['get', 'identificador']]
-
-                        },
-                        'paint': {
-
-                        }
-                    }
-                ]
-            },
-            
-        ]
-    },
+    
+    
     
     'mapeamento-das-capitais': {
         title: 'Mapeamento das Capitais',
