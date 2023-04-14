@@ -263,10 +263,6 @@ var PROJECTS = {
         Finalizadas: 19,51%`,
         legend: [
             1,
-            12,
-            7,
-            8,
-            5,
             6
         ],
        
