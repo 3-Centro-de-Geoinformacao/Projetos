@@ -263,9 +263,10 @@ var PROJECTS = {
     },
     'pddmt': {
         title: 'Plano de Desenvolvimento da Doutrina Militar Terrestre (PDDMT)',
-        description: `O objetivo do presente projeto consiste em realizar o mapeamento das capitais, para gerar 41 cartas ortoimagens, 8 na escala 1:25.000 
-        e 33 na escala de 1:50.000, visando atender a meta do Plano Interno de Trabalho(PIT) 2023 da Diretoria de Serviço Geográfico. /n
-        Finalizadas: 19,51%`,
+        description: `O objetivo do presente projeto consiste na produção de Cartas Ortoimagem de 
+        toda a área compreendida pela cidade de Teresina-PI, 2 cartas no Ceará e 16 Cartas da Área 
+        Campo de Instrução 28º Batalhão Caçadores.
+        Tem como objetivo ainda a produção de 7 Cartas Topográficas e 3 Mapas Temáticos`,
         legend: [
             1,
             6
