@@ -321,9 +321,9 @@ var PROJECTS = {
     'levantamento-patrimonial': {
         title: 'Levantamento de Áreas Patrimoniais',
         legend: [
-            1,
-            17,
-            3
+//             1,
+//             17,
+//             3
         ],
         description: `O objetivo do presente levantamento é prestar apoio ao HMAR (Remembramento 31 imóveis), 
         CIMNC (georreferenciamento de imóveis) e 59ª BI Mtz (desmembramento de 3 imóveis AL07-0001, 0002 e 0003)`,
