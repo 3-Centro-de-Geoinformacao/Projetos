@@ -1163,7 +1163,7 @@
             "properties": {
                 "id": 30034,
                 "identificador": "1371-2-SE",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1198,7 +1198,7 @@
             "properties": {
                 "id": 30035,
                 "identificador": "1292-4-SE",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1233,7 +1233,7 @@
             "properties": {
                 "id": 30036,
                 "identificador": "1293-3-SO",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1268,7 +1268,7 @@
             "properties": {
                 "id": 30037,
                 "identificador": "1371-2-NE",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1303,7 +1303,7 @@
             "properties": {
                 "id": 30038,
                 "identificador": "1372-1-NE",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1338,7 +1338,7 @@
             "properties": {
                 "id": 30039,
                 "identificador": "1293-3-SE",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1373,7 +1373,7 @@
             "properties": {
                 "id": 30040,
                 "identificador": "1372-1-SO",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
@@ -1408,7 +1408,7 @@
             "properties": {
                 "id": 30041,
                 "identificador": "1372-1-NO",
-                "situacao": "Finalizada"
+                "situacao": "Editadas"
             },
             "geometry": {
                 "type": "Polygon",
